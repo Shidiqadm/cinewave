@@ -38,10 +38,41 @@ Welcome to CineWave, a React Native application for exploring popular movies and
 
 ## Features
 
-- **Movie List:** Explore a list of popular movies.
-- **Movie Details:** View detailed information about a selected movie.
-- **Favorites:** Add and remove movies from your favorites list.
-- **Filters and Sorting (Extension):** Filter movies by genre and release year. Sort by popularity, release date, and rating.
+### 1. Movie Listing (Popular, TopRated, Upcoming)
+   - Explore a curated list of popular, top-rated, and upcoming movies.
+   - Obtain details such as title, poster, release date, and overview.
+
+### 2. TV Shows Listing (Popular, TopRated, Upcoming)
+   - Discover popular, top-rated, and upcoming TV shows.
+   - Access details like title, poster, release date, and overview.
+
+### 3. Movie Details
+   - View in-depth information about a selected movie.
+   - Details include title, overview, release date, and backdrop image.
+
+### 4. Show Details
+   - Explore detailed information about a selected TV show.
+   - Information includes title, overview, release date, and backdrop image.
+
+### 5. Similar Movies
+   - Find movies that are similar to the currently selected movie.
+   - Navigate through a list of related movies.
+
+### 6. Similar Shows
+   - Discover TV shows that are similar to the currently selected show.
+   - Browse through a list of related TV shows.
+
+### 7. Favourites List
+   - Add movies and TV shows to your favorites list.
+   - Easily manage your favorite content within the app.
+
+### 8. Persisted Favourites
+   - Favourite content is persisted across app sessions.
+   - Data remains available even after closing and reopening the app.
+
+### 9. Movie / TV Show Search (Listing)
+   - Search for movies and TV shows based on your preferences.
+   - Obtain search results and navigate to details directly from the search.
 
 ## License
 
