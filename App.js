@@ -10,7 +10,10 @@ import { createStackNavigator } from '@react-navigation/stack';
 import MovieDetails from './src/screens/Home/MovieDetails';
 import ShowDetails from './src/screens/Home/ShowDetails';
 import { PersistGate } from 'redux-persist/integration/react';
+import { TransitionPresets } from "@react-navigation/stack";
 import Toast from 'react-native-toast-message';
+import Filters from './src/screens/Search/Filters';
+import Discover from './src/screens/Home/Discover';
 
 LogBox.ignoreAllLogs();
 
@@ -36,9 +39,15 @@ export default function App() {
         <PersistGate loading={null} persistor={persistor}>
           <QueryClientProvider client={queryClient}>
             <Stack.Navigator screenOptions={{ headerShown: false }}>
-              <Stack.Screen name="Landing" component={BottomTab} />
-              <Stack.Screen name="MovieDetails" component={MovieDetails} />
-              <Stack.Screen name="ShowDetails" component={ShowDetails} />
+              <Stack.Group>
+                <Stack.Screen name="Landing" component={BottomTab} />
+                <Stack.Screen name="MovieDetails" component={MovieDetails} />
+                <Stack.Screen name="ShowDetails" component={ShowDetails} />
+                <Stack.Screen name="Discover" component={Discover} />
+              </Stack.Group>
+              <Stack.Group screenOptions={{presentation: 'modal', ...TransitionPresets.ModalPresentationIOS}}>
+                <Stack.Screen name='Filters' component={Filters} />
+              </Stack.Group>
             </Stack.Navigator>
           </QueryClientProvider>
         </PersistGate>

@@ -80,6 +80,13 @@ const fetchSearchResultsByQuery = async (query) => {
   return response.data.results;
 };
 
+const fetchDiscoverMovies = async (apiQueryRedux) => {
+  const response = await axios.get(`${TMDB_BASE_URL}/discover/movie${apiQueryRedux}`, {
+    headers
+  });
+  return response.data.results;
+};
+
 const tmdbService = {
   fetchPopularMovies,
   fetchMovieDetails,
@@ -90,7 +97,8 @@ const tmdbService = {
   fetchShowDetails,
   fetchSimilarMovies,
   fetchSimilarShows,
-  fetchSearchResultsByQuery
+  fetchSearchResultsByQuery,
+  fetchDiscoverMovies
 };
 
 export default tmdbService;

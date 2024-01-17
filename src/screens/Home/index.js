@@ -131,7 +131,7 @@ const Home = () => {
           </View>
           <View style={{marginTop: 20}}>
             <View style={{paddingHorizontal: 20}}>
-              <SectionTitle title="Upcoming Movies" />
+              <SectionTitle title="Upcoming Movies" onPress={() => navigation.navigate('Discover', { type: 'discover' })} />
             </View>
             <View style={{marginTop: 10}}>
               <FlatList

@@ -1,4 +1,4 @@
-import { Pressable, SafeAreaView, StyleSheet, TextInput, View } from 'react-native'
+import { Pressable, StyleSheet, TextInput, View } from 'react-native'
 import React, { useState } from 'react'
 import { StatusBar } from 'expo-status-bar'
 import { COLORS } from '../../constants'
@@ -9,6 +9,8 @@ import { FlatList } from 'react-native-gesture-handler'
 import { URLS } from '../../constants/urls'
 import { Image } from 'expo-image'
 import { useNavigation } from '@react-navigation/native'
+import { SafeAreaView } from 'react-native-safe-area-context'
+import { Ionicons } from '@expo/vector-icons'
 
 const Search = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -51,14 +53,19 @@ const Search = () => {
       <StatusBar style='inverted' />
       {/* <Appbar title='Search' /> */}
       <View style={{flex: 1}}>
-        <View style={{paddingHorizontal: 20}}>
-          <TextInput
-            style={{backgroundColor: COLORS.backgroundSecondary, borderRadius: 8, paddingVertical: 12, paddingHorizontal: 16, color: COLORS.light}}
-            placeholder='Search'
-            placeholderTextColor={COLORS.background}
-            selectionColor={COLORS.primary}
-            onChangeText={setSearchTerm}
-          />
+        <View style={{paddingHorizontal: 20, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', gap: 18}}>
+          <View style={{flex: 1}}>
+            <TextInput
+              style={{backgroundColor: COLORS.backgroundSecondary, borderRadius: 8, paddingVertical: 12, paddingHorizontal: 16, color: COLORS.light}}
+              placeholder='Search'
+              placeholderTextColor={COLORS.background}
+              selectionColor={COLORS.primary}
+              onChangeText={setSearchTerm}
+            />
+          </View>
+          <Pressable onPress={() => navigation.navigate('Filters')}>
+            <Ionicons name="filter-sharp" size={24} color={COLORS.primary} />
+          </Pressable>
         </View>
         <FlatList
           data={searchResults}

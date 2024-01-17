@@ -445,3 +445,828 @@ export const mockData = {
   "total_pages": 1000,
   "total_results": 20000
 }
+
+export const genres = [
+  {
+    id: 28,
+    name: "Action",
+  },
+  {
+    id: 12,
+    name: "Adventure",
+  },
+  {
+    id: 16,
+    name: "Animation",
+  },
+  {
+    id: 35,
+    name: "Comedy",
+  },
+  {
+    id: 80,
+    name: "Crime",
+  },
+  {
+    id: 99,
+    name: "Documentary",
+  },
+  {
+    id: 18,
+    name: "Drama",
+  },
+  {
+    id: 10751,
+    name: "Family",
+  },
+  {
+    id: 14,
+    name: "Fantasy",
+  },
+  {
+    id: 36,
+    name: "History",
+  },
+  {
+    id: 27,
+    name: "Horror",
+  },
+  {
+    id: 10402,
+    name: "Music",
+  },
+  {
+    id: 9648,
+    name: "Mystery",
+  },
+  {
+    id: 10749,
+    name: "Romance",
+  },
+  {
+    id: 878,
+    name: "Science Fiction",
+  },
+  {
+    id: 10770,
+    name: "TV Movie",
+  },
+  {
+    id: 53,
+    name: "Thriller",
+  },
+  {
+    id: 10752,
+    name: "War",
+  },
+  {
+    id: 37,
+    name: "Western",
+  },
+];
+
+export const certification = [
+  { label: "U", value: "U" },
+  { label: "U/A 7+", value: "U/A 7+" },
+  { label: "UA", value: "UA" },
+  { label: "U/A 13+", value: "U/A 13+" },
+  { label: "U/A 16+", value: "U/A 16+" },
+  { label: "A", value: "A" },
+];
+export const languages = [
+  {
+    label: "No Language",
+    value: "No Language",
+  },
+  {
+    label: "Afar",
+    value: "Afar",
+  },
+  {
+    label: "Afrikaans",
+    value: "Afrikaans",
+  },
+  {
+    label: "Akan",
+    value: "Akan",
+  },
+  {
+    label: "Aragonese",
+    value: "Aragonese",
+  },
+  {
+    label: "Assamese",
+    value: "Assamese",
+  },
+  {
+    label: "Avaric",
+    value: "Avaric",
+  },
+  {
+    label: "Avestan",
+    value: "Avestan",
+  },
+  {
+    label: "Aymara",
+    value: "Aymara",
+  },
+  {
+    label: "Azerbaijani",
+    value: "Azerbaijani",
+  },
+  {
+    label: "Bashkir",
+    value: "Bashkir",
+  },
+  {
+    label: "Bambara",
+    value: "Bamanankan",
+  },
+  {
+    label: "Bislama",
+    value: "Bislama",
+  },
+  {
+    label: "Tibetan",
+    value: "Tibetan",
+  },
+  {
+    label: "Breton",
+    value: "Breton",
+  },
+  {
+    label: "Catalan",
+    value: "Catalan",
+  },
+  {
+    label: "Czech",
+    value: "Czech",
+  },
+  {
+    label: "Chechen",
+    value: "Chechen",
+  },
+  {
+    label: "Slavic",
+    value: "Slavic",
+  },
+  {
+    label: "Chuvash",
+    value: "Chuvash",
+  },
+  {
+    label: "Cornish",
+    value: "Cornish",
+  },
+  {
+    label: "Corsican",
+    value: "Corsican",
+  },
+  {
+    label: "Cree",
+    value: "Cree",
+  },
+  {
+    label: "Welsh",
+    value: "Welsh",
+  },
+  {
+    label: "Danish",
+    value: "Danish",
+  },
+  {
+    label: "German",
+    value: "German",
+  },
+  {
+    label: "Divehi",
+    value: "Divehi",
+  },
+  {
+    label: "Dzongkha",
+    value: "Dzongkha",
+  },
+  {
+    label: "Esperanto",
+    value: "Esperanto",
+  },
+  {
+    label: "Estonian",
+    value: "Estonian",
+  },
+  {
+    label: "Basque",
+    value: "Basque",
+  },
+  {
+    label: "Faroese",
+    value: "Faroese",
+  },
+  {
+    label: "Fijian",
+    value: "Fijian",
+  },
+  {
+    label: "Finnish",
+    value: "Finnish",
+  },
+  {
+    label: "French",
+    value: "French",
+  },
+  {
+    label: "Frisian",
+    value: "Frisian",
+  },
+  {
+    label: "Fulah",
+    value: "Fulfulde",
+  },
+  {
+    label: "Gaelic",
+    value: "Gaelic",
+  },
+  {
+    label: "Irish",
+    value: "Irish",
+  },
+  {
+    label: "Galician",
+    value: "Galician",
+  },
+  {
+    label: "Manx",
+    value: "Manx",
+  },
+  {
+    label: "Guarani",
+    value: "Guarani",
+  },
+  {
+    label: "Gujarati",
+    value: "Gujarati",
+  },
+  {
+    label: "Haitian; Haitian Creole",
+    value: "Haitian; Haitian Creole",
+  },
+  {
+    label: "Hausa",
+    value: "Hausa",
+  },
+  {
+    label: "Serbo-Croatian",
+    value: "Serbo-Croatian",
+  },
+  {
+    label: "Herero",
+    value: "Herero",
+  },
+  {
+    label: "Hiri Motu",
+    value: "Hiri Motu",
+  },
+  {
+    label: "Croatian",
+    value: "Croatian",
+  },
+  {
+    label: "Hungarian",
+    value: "Hungarian",
+  },
+  {
+    label: "Igbo",
+    value: "Igbo",
+  },
+  {
+    label: "Ido",
+    value: "Ido",
+  },
+  {
+    label: "Yi",
+    value: "Yi",
+  },
+  {
+    label: "Inuktitut",
+    value: "Inuktitut",
+  },
+  {
+    label: "Interlingue",
+    value: "Interlingue",
+  },
+  {
+    label: "Interlingua",
+    value: "Interlingua",
+  },
+  {
+    label: "Indonesian",
+    value: "Indonesian",
+  },
+  {
+    label: "Inupiaq",
+    value: "Inupiaq",
+  },
+  {
+    label: "Icelandic",
+    value: "Icelandic",
+  },
+  {
+    label: "Italian",
+    value: "Italian",
+  },
+  {
+    label: "Javanese",
+    value: "Javanese",
+  },
+  {
+    label: "Japanese",
+    value: "Japanese",
+  },
+  {
+    label: "Kalaallisut",
+    value: "Kalaallisut",
+  },
+  {
+    label: "Kannada",
+    value: "Kannada",
+  },
+  {
+    label: "Kashmiri",
+    value: "Kashmiri",
+  },
+  {
+    label: "Kanuri",
+    value: "Kanuri",
+  },
+  {
+    label: "Kazakh",
+    value: "Kazakh",
+  },
+  {
+    label: "Khmer",
+    value: "Khmer",
+  },
+  {
+    label: "Kikuyu",
+    value: "Kikuyu",
+  },
+  {
+    label: "Kinyarwanda",
+    value: "Kinyarwanda",
+  },
+  {
+    label: "Kirghiz",
+    value: "Kirghiz",
+  },
+  {
+    label: "Komi",
+    value: "Komi",
+  },
+  {
+    label: "Kongo",
+    value: "Kongo",
+  },
+  {
+    label: "Korean",
+    value: "Korean",
+  },
+  {
+    label: "Kurdish",
+    value: "Kurdish",
+  },
+  {
+    label: "Kuanyama",
+    value: "Kuanyama",
+  },
+  {
+    label: "Latin",
+    value: "Latin",
+  },
+  {
+    label: "Luxembourgish",
+    value: "Luxembourgish",
+  },
+  {
+    label: "Luba-Katanga",
+    value: "Luba-Katanga",
+  },
+  {
+    label: "Ganda",
+    value: "Ganda",
+  },
+  {
+    label: "Limburgish",
+    value: "Limburgish",
+  },
+  {
+    label: "Lingala",
+    value: "Lingala",
+  },
+  {
+    label: "Lao",
+    value: "Lao",
+  },
+  {
+    label: "Lithuanian",
+    value: "Lithuanian",
+  },
+  {
+    label: "Luba-Lulua",
+    value: "Luba-Lulua",
+  },
+  {
+    label: "Latvian",
+    value: "Latvian",
+  },
+  {
+    label: "Manx",
+    value: "Manx",
+  },
+  {
+    label: "Macedonian",
+    value: "Macedonian",
+  },
+  {
+    label: "Malagasy",
+    value: "Malagasy",
+  },
+  {
+    label: "Malay",
+    value: "Malay",
+  },
+  {
+    label: "Maltese",
+    value: "Maltese",
+  },
+  {
+    label: "Maori",
+    value: "Maori",
+  },
+  {
+    label: "Marathi",
+    value: "Marathi",
+  },
+  {
+    label: "Marshallese",
+    value: "Marshallese",
+  },
+  {
+    label: "Mongolian",
+    value: "Mongolian",
+  },
+  {
+    label: "Nauru",
+    value: "Nauru",
+  },
+  {
+    label: "Navajo",
+    value: "Navajo",
+  },
+  {
+    label: "Norwegian Bokmål",
+    value: "Norwegian Bokmål",
+  },
+  {
+    label: "North Ndebele",
+    value: "North Ndebele",
+  },
+  {
+    label: "Nepali",
+    value: "Nepali",
+  },
+  {
+    label: "Ndonga",
+    value: "Ndonga",
+  },
+  {
+    label: "Norwegian Nynorsk",
+    value: "Norwegian Nynorsk",
+  },
+  {
+    label: "Norwegian",
+    value: "Norwegian",
+  },
+  {
+    label: "Nuosu",
+    value: "Nuosu",
+  },
+  {
+    label: "South Ndebele",
+    value: "South Ndebele",
+  },
+  {
+    label: "Occitan",
+    value: "Occitan",
+  },
+  {
+    label: "Ojibwe",
+    value: "Ojibwe",
+  },
+  {
+    label: "Old Church Slavonic",
+    value: "Old Church Slavonic",
+  },
+  {
+    label: "Oromo",
+    value: "Oromo",
+  },
+  {
+    label: "Oriya",
+    value: "Oriya",
+  },
+  {
+    label: "Ossetian",
+    value: "Ossetian",
+  },
+  {
+    label: "Panjabi",
+    value: "Panjabi",
+  },
+  {
+    label: "Pali",
+    value: "Pali",
+  },
+  {
+    label: "Polish",
+    value: "Polish",
+  },
+  {
+    label: "Pushto",
+    value: "Pushto",
+  },
+  {
+    label: "Portuguese",
+    value: "Portuguese",
+  },
+  {
+    label: "Quechua",
+    value: "Quechua",
+  },
+  {
+    label: "Romansh",
+    value: "Romansh",
+  },
+  {
+    label: "Rundi",
+    value: "Rundi",
+  },
+  {
+    label: "Romanian",
+    value: "Romanian",
+  },
+  {
+    label: "Russian",
+    value: "Russian",
+  },
+  {
+    label: "Sanskrit",
+    value: "Sanskrit",
+  },
+  {
+    label: "Sardinian",
+    value: "Sardinian",
+  },
+  {
+    label: "Sindhi",
+    value: "Sindhi",
+  },
+  {
+    label: "Northern Sami",
+    value: "Northern Sami",
+  },
+  {
+    label: "Sango",
+    value: "Sango",
+  },
+  {
+    label: "Sinhala",
+    value: "Sinhala",
+  },
+  {
+    label: "Slovak",
+    value: "Slovak",
+  },
+  {
+    label: "Slovenian",
+    value: "Slovenian",
+  },
+  {
+    label: "Samoan",
+    value: "Samoan",
+  },
+  {
+    label: "Shona",
+    value: "Shona",
+  },
+  {
+    label: "Sindhi",
+    value: "Sindhi",
+  },
+  {
+    label: "Somali",
+    value: "Somali",
+  },
+  {
+    label: "Sotho, Southern",
+    value: "Sotho, Southern",
+  },
+  {
+    label: "Spanish",
+    value: "Spanish",
+  },
+  {
+    label: "Sardinian",
+    value: "Sardinian",
+  },
+  {
+    label: "Serbo-Croatian",
+    value: "Serbo-Croatian",
+  },
+  {
+    label: "Sundanese",
+    value: "Sundanese",
+  },
+  {
+    label: "Swahili",
+    value: "Swahili",
+  },
+  {
+    label: "Swati",
+    value: "Swati",
+  },
+  {
+    label: "Swedish",
+    value: "Swedish",
+  },
+  {
+    label: "Tamil",
+    value: "Tamil",
+  },
+  {
+    label: "Telugu",
+    value: "Telugu",
+  },
+  {
+    label: "Tajik",
+    value: "Tajik",
+  },
+  {
+    label: "Thai",
+    value: "Thai",
+  },
+  {
+    label: "Tigrinya",
+    value: "Tigrinya",
+  },
+  {
+    label: "Tibetan",
+    value: "Tibetan",
+  },
+  {
+    label: "Turkmen",
+    value: "Turkmen",
+  },
+  {
+    label: "Tagalog",
+    value: "Tagalog",
+  },
+  {
+    label: "Tswana",
+    value: "Tswana",
+  },
+  {
+    label: "Tonga",
+    value: "Tonga",
+  },
+  {
+    label: "Turkish",
+    value: "Turkish",
+  },
+  {
+    label: "Tsonga",
+    value: "Tsonga",
+  },
+  {
+    label: "Tatar",
+    value: "Tatar",
+  },
+  {
+    label: "Twi",
+    value: "Twi",
+  },
+  {
+    label: "Tahitian",
+    value: "Tahitian",
+  },
+  {
+    label: "Uighur",
+    value: "Uighur",
+  },
+  {
+    label: "Ukrainian",
+    value: "Ukrainian",
+  },
+  {
+    label: "Urdu",
+    value: "Urdu",
+  },
+  {
+    label: "Uzbek",
+    value: "Uzbek",
+  },
+  {
+    label: "Venda",
+    value: "Venda",
+  },
+  {
+    label: "Vietnamese",
+    value: "Vietnamese",
+  },
+  {
+    label: "Volapük",
+    value: "Volapük",
+  },
+  {
+    label: "Walloon",
+    value: "Walloon",
+  },
+  {
+    label: "Welsh",
+    value: "Welsh",
+  },
+  {
+    label: "Wolof",
+    value: "Wolof",
+  },
+  {
+    label: "Western Frisian",
+    value: "Western Frisian",
+  },
+  {
+    label: "Xhosa",
+    value: "Xhosa",
+  },
+  {
+    label: "Yiddish",
+    value: "Yiddish",
+  },
+  {
+    label: "Yoruba",
+    value: "Yoruba",
+  },
+  {
+    label: "Zhuang",
+    value: "Zhuang",
+  },
+  {
+    label: "Zulu",
+    value: "Zulu",
+  },
+  {
+   label: 'English',
+   value: 'English',
+  }
+];
+
+export const sortBy = [
+  {
+    label: 'popularity.asc',
+    value: 'popularity.asc',
+  },
+  {
+    label: 'popularity.desc',
+    value: 'popularity.desc',
+  },
+  {
+    label: 'primary_release_date.asc',
+    value: 'primary_release_date.asc',
+  },
+  {
+    label: 'primary_release_date.desc',
+    value: 'primary_release_date.desc',
+  },
+  {
+    label: 'revenue.asc',
+    value: 'revenue.asc',
+  },
+  {
+    label: 'revenue.desc',
+    value: 'revenue.desc',
+  },
+  {
+    label: 'vote_average.asc',
+    value: 'vote_average.asc',
+  },
+  {
+    label: 'vote_average.desc',
+    value: 'vote_average.desc',
+  },
+  {
+    label: 'vote_count.asc',
+    value: 'vote_count.asc',
+  },
+  {
+    label: 'vote_count.desc',
+    value: 'vote_count.desc',
+  }
+]

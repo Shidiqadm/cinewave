@@ -72,7 +72,7 @@ Welcome to CineWave, a React Native application for exploring popular movies and
 
 ### 9. Movie / TV Show Search (Listing)
    - Search for movies and TV shows based on your preferences.
-   - Obtain search results and navigate to details directly from the search.
+   - Obtain search results and navigate to details directly from the search.c
 
 ## License
 
